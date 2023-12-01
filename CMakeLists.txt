@@ -53,7 +53,7 @@ else()
   find_package(TinyXML REQUIRED) # bionic has not cmake module
 endif()
 find_package(urdfdom_headers 1.0 REQUIRED)
-find_package(console_bridge_vendor QUIET) # Provides console_bridge 0.4.0 on platforms without it.
+# find_package(console_bridge_vendor QUIET) # Provides console_bridge 0.4.0 on platforms without it.
 find_package(console_bridge REQUIRED)
 
 # Control where libraries and executables are placed during the build
